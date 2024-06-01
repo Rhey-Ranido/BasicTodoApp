@@ -2,12 +2,12 @@
   "name": "next-todo-app",
   "version": "0.1.0",
   "private": true,
-  "postinstall": "prisma generate",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@prisma/client": "^5.14.0",
